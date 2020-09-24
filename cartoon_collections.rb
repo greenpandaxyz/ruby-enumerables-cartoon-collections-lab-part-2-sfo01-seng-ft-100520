@@ -19,7 +19,6 @@ def find_valid_calls(planeteer_calls)
 planeteer_calls.any? do |element|
 element == valid_calls
   end
-  find_valid_calls(valid_calls)
 end
 
 # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above
