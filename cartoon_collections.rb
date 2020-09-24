@@ -16,7 +16,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-planeteer_calls.all? do |element|
+planeteer_calls.count do |element|
 element == valid_calls
   end
 end
